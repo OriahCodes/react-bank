@@ -1,13 +1,17 @@
 const express = require('express')
 const router = express.Router()
+var cors = require('cors')
 
 const db = require('../model/transactionModel')
+
+router.use(cors())
 
 // Routes setup
 
 router.get('/', (req,res) => {
     console.log("Someone has come into the server.")
     res.send("Server is up and running smoothly")
+    // res.sendFile(path.join(__dirname, 'client', 'index.html'))
 })
 
 router.get('/transactions', function (req,res) {

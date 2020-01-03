@@ -1,0 +1,9 @@
+.transaction{
+    box-shadow: 0px 1px 1px 1px #2db071;
+    margin-bottom: 8px;
+    padding: 5px;
+    height: 22px;
+}
+.amount{
+    float: right;
+}

@@ -5,8 +5,11 @@ class Transactions extends Component {
     render() {
         let data= this.props.data
         return (
-            data.map( (t,ind) => 
-                <Transaction data={t} key={ind}/> )
+            <div id="transactions-container">
+                {data.map( (t,ind) => 
+                    <Transaction data={t} key={ind}/> )}
+            </div>
+
         )
     }
 }

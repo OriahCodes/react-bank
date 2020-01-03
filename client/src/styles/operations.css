@@ -1,0 +1,31 @@
+input{
+    width: 50%;
+    background-color:  #ecf0f1;
+    box-shadow: 0px 0px 2px #0f1010;
+    margin-bottom: 8px;
+    border-width: 0;
+    width: 220px;
+    padding: 3px
+}
+
+#operation-kind > div{
+    color: #f29d18;
+    font-weight:bold;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px
+}
+
+#withdraw{
+    margin-left: 69px;
+}
+
+#operation-kind > div:hover{
+    color:rgb(231, 84, 70)
+}
+
+.input-container>span{
+    padding: 3px;
+    color:#707180;
+}
